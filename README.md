@@ -1,4 +1,4 @@
-# Reproduce bug using Laravel-Octane with laravel-firebase.
+# Reproduce problem using Laravel-Octane with laravel-firebase.
 
 ## Description
 When using laravel-octane (`php artisan octane:start`), inserting or updating data to firestore will be blocked until request timeout.
