@@ -13,9 +13,11 @@ class FireStoreController extends Controller
     public function store() {
         $data = [
             "id" => 'AAAA',
-            "message" => "Hello, world"
+            "message" => "Hello, world!!!"
         ];
 
         $this->firebaseService->firestoreUpdate('test', $data);
+
+        return response()->json(['success' => true]);
     }
 }
